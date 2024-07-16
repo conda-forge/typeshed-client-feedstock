@@ -1,5 +1,5 @@
 {% set name = "typeshed-client" %}
-{% set version = "2.4.0" %}
+{% set version = "2.7.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/typeshed_client-{{ version }}.tar.gz
-  sha256: b4e4e3e40dca91ce1a667d2eb0eb350a0a2c0d80e18a232d18857aa61bed3492
+  sha256: e63df1e738588ad39f1226de042f4407ab6a99c456f0837063afd83b1415447c
 
 build:
   noarch: python
