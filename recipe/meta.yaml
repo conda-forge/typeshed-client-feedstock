@@ -1,5 +1,5 @@
 {% set name = "typeshed-client" %}
-{% set version = "2.8.2" %}
+{% set version = "2.9.0" %}
 {% set python_min = "3.9" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/typeshed_client-{{ version }}.tar.gz
-  sha256: 9d8e29fb74574d87bf9a719f77131dc40f2aeea20e97d25d4a3dc2cc30debd31
+  sha256: 9c2659a4ba11a9d8597d63770416b42c69861189bf861809f6443d329c84be3a
 
 build:
   noarch: python
